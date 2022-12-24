@@ -1,1 +1,9 @@
-<script>import "../app.scss";</script><slot></slot>
+<script lang="ts">
+
+ import "../app.scss";
+ import Navbar from "./Navbar.svelte";
+</script>
+
+
+<Navbar/>
+<slot></slot>
