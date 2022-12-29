@@ -9,9 +9,10 @@
 </script>
 
 <svelte:head>
-  <meta name="color-scheme" content={$theme == 'system' ? 'light dark' :
-  $theme}/> <link rel="stylesheet" href={`/theme/${$theme}.css`} />
+  <meta name="color-scheme" content={$theme == 'system' ? 'dark light' :
+  $theme}/> <link rel="stylesheet" href={`/theme/${$theme}.scss`} />
 </svelte:head>
 
 <Navbar/>
 <slot></slot>
+

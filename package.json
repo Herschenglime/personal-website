@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-prism": "^1.1.6",
 		"sveltestrap": "^5.10.0"
 	}
 }

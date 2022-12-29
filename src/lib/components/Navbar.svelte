@@ -13,6 +13,7 @@
     DropdownMenu,
     DropdownItem
   } from 'sveltestrap';
+	import ThemeSwitch from './ThemeSwitch.svelte';
 
   let isOpen = false;
 
@@ -45,6 +46,7 @@
           <DropdownItem>Reset</DropdownItem>
         </DropdownMenu>
       </Dropdown>
+      <ThemeSwitch/>
     </Nav>
   </Collapse>
 </Navbar>

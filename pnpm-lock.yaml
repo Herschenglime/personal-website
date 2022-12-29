@@ -17,6 +17,7 @@ specifiers:
   svelte: ^3.54.0
   svelte-check: ^2.9.2
   svelte-preprocess: ^4.10.7
+  svelte-prism: ^1.1.6
   sveltestrap: ^5.10.0
   tslib: ^2.4.1
   typescript: ^4.9.3
@@ -24,6 +25,7 @@ specifiers:
   vitest: ^0.25.3
 
 dependencies:
+  svelte-prism: 1.1.6
   sveltestrap: 5.10.0_svelte@3.55.0
 
 devDependencies:
@@ -1462,6 +1464,15 @@ packages:
     hasBin: true
     dev: true
 
+  /prism-svelte/0.4.7:
+    resolution: {integrity: sha512-yABh19CYbM24V7aS7TuPYRNMqthxwbvx6FF/Rw920YbyBWO3tnyPIqRMgHuSVsLmuHkkBS1Akyof463FVdkeDQ==}
+    dev: false
+
+  /prismjs/1.29.0:
+    resolution: {integrity: sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==}
+    engines: {node: '>=6'}
+    dev: false
+
   /punycode/2.1.1:
     resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
     engines: {node: '>=6'}
@@ -1749,6 +1760,13 @@ packages:
       svelte: 3.55.0
       typescript: 4.9.4
     dev: true
+
+  /svelte-prism/1.1.6:
+    resolution: {integrity: sha512-FEVBqD1wcSKYwRpgaMGRfEIQPquKMwo+vl91lnFHhQCtTivxgkCS6ZWNOyvZGRsNbWk50fYZOWOp3xXIBWNeSw==}
+    dependencies:
+      prism-svelte: 0.4.7
+      prismjs: 1.29.0
+    dev: false
 
   /svelte/3.55.0:
     resolution: {integrity: sha512-uGu2FVMlOuey4JoKHKrpZFkoYyj0VLjJdz47zX5+gVK5odxHM40RVhar9/iK2YFRVxvfg9FkhfVlR0sjeIrOiA==}
