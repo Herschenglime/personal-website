@@ -21,6 +21,7 @@
     formatting is done with svelte-prism, an implementation of prism-js for svelte. See the subsections below for more details.
   </p>
 
+  <h3><a href="./code-playground/mini-projects">Mini Projects</a></h3>
   <h3><a href="./code-playground/algorithms">Algorithms</a></h3>
   <h3><a href="./code-playground/data-structures">Data Structures</a></h3>
 

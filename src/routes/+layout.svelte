@@ -2,6 +2,7 @@
 
  import "../app.scss";
  import Navbar from "$lib/components/Navbar.svelte";
+ import Topbar from "$lib/components/topbar/Topbar.svelte";
 
  //theme switching
  import { theme } from '$lib/stores'
@@ -10,9 +11,12 @@
 
 <svelte:head>
   <meta name="color-scheme" content={$theme == 'system' ? 'dark light' :
-  $theme}/> <link rel="stylesheet" href={`/theme/${$theme}.scss`} />
+                                    $theme}/>
+  <link rel="stylesheet" href={`/theme/${$theme}.css`} />
+  <!-- <link rel="stylesheet" href="/theme/dark.css"> -->
 </svelte:head>
 
-<Navbar/>
+<!-- <Navbar/> -->
+<Topbar/>
 <slot></slot>
 
