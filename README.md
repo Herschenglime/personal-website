@@ -1,3 +1,6 @@
+# migrating away
+I realize now that adding bootstrap was probably a bad idea - I don't know how it works, and it would probably be a better learning experience to do stuff from scratch on the site. New work will be on the pgrau.xyz repo.
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
